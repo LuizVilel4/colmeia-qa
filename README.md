@@ -67,3 +67,9 @@ Alguns cenarios falham porque reproduzem comportamentos encontrados durante os t
 cypress/screenshots
 cypress/videos
 ```
+
+Os artefatos completos do Cypress nao ficam versionados para evitar arquivos duplicados no repositorio. As evidencias principais foram separadas em:
+
+```text
+evidencias/
+```

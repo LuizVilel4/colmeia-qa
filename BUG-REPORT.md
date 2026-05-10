@@ -23,7 +23,7 @@ A aplicacao exibe mensagem relacionada a credenciais invalidas e ainda apresenta
 
 ### Evidencia
 
-O teste salva screenshot quando identifica a mensagem de erro ou a acao de continuar.
+Arquivo: `evidencias/login-valido-com-erro.png`
 
 ---
 
@@ -53,7 +53,7 @@ O banco sai da lista principal, mas nao aparece na listagem de arquivados.
 
 ### Evidencia
 
-Screenshot gerado em `cypress/screenshots/bancos-de-dados.cy.js`.
+Arquivo: `evidencias/banco-arquivado-nao-listado.png`
 
 ---
 
@@ -83,4 +83,7 @@ As telas internas carregam mesmo sem login.
 
 ### Evidencia
 
-O teste salva screenshot quando a rota nao redireciona para login.
+Arquivos:
+
+- `evidencias/rota-sem-protecao-bancos-de-dados.png`
+- `evidencias/rota-sem-protecao-colmeia-forms.png`
