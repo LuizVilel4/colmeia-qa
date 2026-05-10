@@ -1,0 +1,13 @@
+{
+  "name": "colmeia-qa-tests",
+  "version": "1.0.0",
+  "description": "Testes automatizados Cypress - Colmeia QA",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:headed": "cypress run --headed"
+  },
+  "devDependencies": {
+    "cypress": "^12.17.4"
+  }
+}
